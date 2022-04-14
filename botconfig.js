@@ -34,10 +34,10 @@ module.exports = {
 //     port: 2124, // The port that lavalink is listening to. This must be a number!
 //     pass: "SleepingOnTrains", //- The password of the lavalink server.
 //     secure: false, // Set this to true if the lavalink uses SSL. if not set it to false.    
-    Host : "node03.marshalxp.xyz",
-    Port : 443,
-    Password : "marshal",
-    Secure : true,
+    host : "node03.marshalxp.xyz",
+    port : 443,
+    pass : "marshal",
+    secure : true,
 
   },
 
