@@ -34,11 +34,10 @@ module.exports = {
 //     port: 2124, // The port that lavalink is listening to. This must be a number!
 //     pass: "SleepingOnTrains", //- The password of the lavalink server.
 //     secure: false, // Set this to true if the lavalink uses SSL. if not set it to false.    
-    host : "node03.marshalxp.xyz",
+    host : "usui-linku.kadantte.moe",
     port : 443,
-    pass : "marshal",
-    secure : true,
-
+    pass : "Usui#0256",
+    secure : true
   },
 
   //Please go to https://developer.spotify.com/dashboard/
