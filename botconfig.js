@@ -3,7 +3,7 @@ module.exports = {
   ExpressServer: true, //If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
-  SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
+  SupportServer: "https://discord.gg/bfhBNYtj", //Support Server Link
   Token: process.env.Token || "", //Discord Bot Token
   ClientID: process.env.Discord_ClientID || "", //Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
@@ -22,8 +22,8 @@ module.exports = {
   
   Presence: {
     status: "online", // You can show online, idle, and dnd
-    name: "Music", // The message shown
-    type: "LISTENING", // PLAYING, WATCHING, LISTENING, STREAMING
+    name: "from bloodloss", // The message shown
+    type: "dying", // PLAYING, WATCHING, LISTENING, STREAMING
   },
 
    // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink/
@@ -34,10 +34,10 @@ module.exports = {
 //     port: 2124, // The port that lavalink is listening to. This must be a number!
 //     pass: "SleepingOnTrains", //- The password of the lavalink server.
 //     secure: false, // Set this to true if the lavalink uses SSL. if not set it to false.    
-        host: "lavalink.darrenofficial.com", //- The host name or IP of the lavalink server.
-    port: 80, // The port that lavalink is listening to. This must be a number!
-    pass: "hisudhan", //- The password of the lavalink server.
-    secure: false, //
+        host: "lavalink.oops.wtf", //- The host name or IP of the lavalink server.
+    port: 443, // The port that lavalink is listening to. This must be a number!
+    pass: "www.freelavalink.ga", //- The password of the lavalink server.
+    secure: true, //
 
   },
 
